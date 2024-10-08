@@ -51,7 +51,7 @@ spec:
               - all
           privileged: false
           # readOnlyRootFilesystem: true
-        image: paymentservice
+        image: public.ecr.aws/b1o7r7e0/paymentservice:9e25e5c9221afc0eac07470af2af814a991646a8
         ports:
         - containerPort: 50051
         env:
